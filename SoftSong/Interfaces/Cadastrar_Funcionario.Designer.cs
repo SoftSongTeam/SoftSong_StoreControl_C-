@@ -1,0 +1,389 @@
+﻿namespace SoftSong.Interfaces
+{
+    partial class Cadastrar_Funcionario
+    {
+        /// <summary> 
+        /// Variável de designer necessária.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary> 
+        /// Limpar os recursos que estão sendo usados.
+        /// </summary>
+        /// <param name="disposing">true se for necessário descartar os recursos gerenciados; caso contrário, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Código gerado pelo Designer de Componentes
+
+        /// <summary> 
+        /// Método necessário para suporte ao Designer - não modifique 
+        /// o conteúdo deste método com o editor de código.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Cadastrar_Funcionario));
+            this.label4 = new System.Windows.Forms.Label();
+            this.txt_Senha = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.txt_Nome = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.txt_Email = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.txt_CPF = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.btn_Limpar = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.bunifuFlatButton1 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.label8 = new System.Windows.Forms.Label();
+            this.txt_Tel = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.cxc_UF = new Bunifu.Framework.UI.BunifuDropdown();
+            this.label7 = new System.Windows.Forms.Label();
+            this.bunifuSeparator2 = new Bunifu.Framework.UI.BunifuSeparator();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label4.Location = new System.Drawing.Point(79, 277);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(47, 17);
+            this.label4.TabIndex = 49;
+            this.label4.Text = "Senha";
+            // 
+            // txt_Senha
+            // 
+            this.txt_Senha.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(88)))), ((int)(((byte)(88)))), ((int)(((byte)(88)))));
+            this.txt_Senha.BorderColorFocused = System.Drawing.SystemColors.ActiveBorder;
+            this.txt_Senha.BorderColorIdle = System.Drawing.SystemColors.ActiveBorder;
+            this.txt_Senha.BorderColorMouseHover = System.Drawing.SystemColors.ActiveBorder;
+            this.txt_Senha.BorderThickness = 1;
+            this.txt_Senha.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_Senha.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.txt_Senha.ForeColor = System.Drawing.Color.White;
+            this.txt_Senha.isPassword = false;
+            this.txt_Senha.Location = new System.Drawing.Point(68, 298);
+            this.txt_Senha.Margin = new System.Windows.Forms.Padding(4);
+            this.txt_Senha.Name = "txt_Senha";
+            this.txt_Senha.Size = new System.Drawing.Size(269, 27);
+            this.txt_Senha.TabIndex = 48;
+            this.txt_Senha.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label10.Location = new System.Drawing.Point(79, 22);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(48, 17);
+            this.label10.TabIndex = 47;
+            this.label10.Text = "Nome";
+            // 
+            // txt_Nome
+            // 
+            this.txt_Nome.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(88)))), ((int)(((byte)(88)))), ((int)(((byte)(88)))));
+            this.txt_Nome.BorderColorFocused = System.Drawing.SystemColors.ActiveBorder;
+            this.txt_Nome.BorderColorIdle = System.Drawing.SystemColors.ActiveBorder;
+            this.txt_Nome.BorderColorMouseHover = System.Drawing.SystemColors.ActiveBorder;
+            this.txt_Nome.BorderThickness = 1;
+            this.txt_Nome.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_Nome.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.txt_Nome.ForeColor = System.Drawing.Color.White;
+            this.txt_Nome.isPassword = false;
+            this.txt_Nome.Location = new System.Drawing.Point(68, 39);
+            this.txt_Nome.Margin = new System.Windows.Forms.Padding(4);
+            this.txt_Nome.Name = "txt_Nome";
+            this.txt_Nome.Size = new System.Drawing.Size(269, 27);
+            this.txt_Nome.TabIndex = 33;
+            this.txt_Nome.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label9.Location = new System.Drawing.Point(79, 71);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(43, 17);
+            this.label9.TabIndex = 46;
+            this.label9.Text = "Email";
+            // 
+            // txt_Email
+            // 
+            this.txt_Email.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(88)))), ((int)(((byte)(88)))), ((int)(((byte)(88)))));
+            this.txt_Email.BorderColorFocused = System.Drawing.SystemColors.ActiveBorder;
+            this.txt_Email.BorderColorIdle = System.Drawing.SystemColors.ActiveBorder;
+            this.txt_Email.BorderColorMouseHover = System.Drawing.SystemColors.ActiveBorder;
+            this.txt_Email.BorderThickness = 1;
+            this.txt_Email.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_Email.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.txt_Email.ForeColor = System.Drawing.Color.White;
+            this.txt_Email.isPassword = false;
+            this.txt_Email.Location = new System.Drawing.Point(68, 89);
+            this.txt_Email.Margin = new System.Windows.Forms.Padding(4);
+            this.txt_Email.Name = "txt_Email";
+            this.txt_Email.Size = new System.Drawing.Size(269, 27);
+            this.txt_Email.TabIndex = 34;
+            this.txt_Email.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label5.Location = new System.Drawing.Point(79, 120);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(33, 17);
+            this.label5.TabIndex = 45;
+            this.label5.Text = "CPF";
+            // 
+            // txt_CPF
+            // 
+            this.txt_CPF.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(88)))), ((int)(((byte)(88)))), ((int)(((byte)(88)))));
+            this.txt_CPF.BorderColorFocused = System.Drawing.SystemColors.ActiveBorder;
+            this.txt_CPF.BorderColorIdle = System.Drawing.SystemColors.ActiveBorder;
+            this.txt_CPF.BorderColorMouseHover = System.Drawing.SystemColors.ActiveBorder;
+            this.txt_CPF.BorderThickness = 1;
+            this.txt_CPF.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_CPF.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.txt_CPF.ForeColor = System.Drawing.Color.White;
+            this.txt_CPF.isPassword = false;
+            this.txt_CPF.Location = new System.Drawing.Point(68, 141);
+            this.txt_CPF.Margin = new System.Windows.Forms.Padding(4);
+            this.txt_CPF.Name = "txt_CPF";
+            this.txt_CPF.Size = new System.Drawing.Size(269, 27);
+            this.txt_CPF.TabIndex = 35;
+            this.txt_CPF.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            // 
+            // btn_Limpar
+            // 
+            this.btn_Limpar.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(53)))), ((int)(((byte)(65)))));
+            this.btn_Limpar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(50)))), ((int)(((byte)(80)))));
+            this.btn_Limpar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_Limpar.BorderRadius = 0;
+            this.btn_Limpar.ButtonText = "Limpar Campos";
+            this.btn_Limpar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_Limpar.DisabledColor = System.Drawing.Color.Gray;
+            this.btn_Limpar.Iconcolor = System.Drawing.Color.Transparent;
+            this.btn_Limpar.Iconimage = ((System.Drawing.Image)(resources.GetObject("btn_Limpar.Iconimage")));
+            this.btn_Limpar.Iconimage_right = null;
+            this.btn_Limpar.Iconimage_right_Selected = null;
+            this.btn_Limpar.Iconimage_Selected = null;
+            this.btn_Limpar.IconMarginLeft = 0;
+            this.btn_Limpar.IconMarginRight = 0;
+            this.btn_Limpar.IconRightVisible = true;
+            this.btn_Limpar.IconRightZoom = 0D;
+            this.btn_Limpar.IconVisible = true;
+            this.btn_Limpar.IconZoom = 90D;
+            this.btn_Limpar.IsTab = false;
+            this.btn_Limpar.Location = new System.Drawing.Point(216, 380);
+            this.btn_Limpar.Name = "btn_Limpar";
+            this.btn_Limpar.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(50)))), ((int)(((byte)(80)))));
+            this.btn_Limpar.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(96)))), ((int)(((byte)(156)))));
+            this.btn_Limpar.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(111)))), ((int)(((byte)(192)))), ((int)(((byte)(217)))));
+            this.btn_Limpar.selected = false;
+            this.btn_Limpar.Size = new System.Drawing.Size(144, 30);
+            this.btn_Limpar.TabIndex = 44;
+            this.btn_Limpar.Text = "Limpar Campos";
+            this.btn_Limpar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_Limpar.Textcolor = System.Drawing.Color.White;
+            this.btn_Limpar.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Limpar.Click += new System.EventHandler(this.btn_Limpar_Click);
+            // 
+            // bunifuFlatButton1
+            // 
+            this.bunifuFlatButton1.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(53)))), ((int)(((byte)(65)))));
+            this.bunifuFlatButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(50)))), ((int)(((byte)(80)))));
+            this.bunifuFlatButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuFlatButton1.BorderRadius = 0;
+            this.bunifuFlatButton1.ButtonText = "Cadastrar";
+            this.bunifuFlatButton1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuFlatButton1.DisabledColor = System.Drawing.Color.Gray;
+            this.bunifuFlatButton1.Iconcolor = System.Drawing.Color.Transparent;
+            this.bunifuFlatButton1.Iconimage = ((System.Drawing.Image)(resources.GetObject("bunifuFlatButton1.Iconimage")));
+            this.bunifuFlatButton1.Iconimage_right = null;
+            this.bunifuFlatButton1.Iconimage_right_Selected = null;
+            this.bunifuFlatButton1.Iconimage_Selected = null;
+            this.bunifuFlatButton1.IconMarginLeft = 0;
+            this.bunifuFlatButton1.IconMarginRight = 0;
+            this.bunifuFlatButton1.IconRightVisible = true;
+            this.bunifuFlatButton1.IconRightZoom = 0D;
+            this.bunifuFlatButton1.IconVisible = true;
+            this.bunifuFlatButton1.IconZoom = 90D;
+            this.bunifuFlatButton1.IsTab = false;
+            this.bunifuFlatButton1.Location = new System.Drawing.Point(55, 380);
+            this.bunifuFlatButton1.Name = "bunifuFlatButton1";
+            this.bunifuFlatButton1.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(50)))), ((int)(((byte)(80)))));
+            this.bunifuFlatButton1.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(96)))), ((int)(((byte)(156)))));
+            this.bunifuFlatButton1.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(111)))), ((int)(((byte)(192)))), ((int)(((byte)(217)))));
+            this.bunifuFlatButton1.selected = false;
+            this.bunifuFlatButton1.Size = new System.Drawing.Size(138, 30);
+            this.bunifuFlatButton1.TabIndex = 43;
+            this.bunifuFlatButton1.Text = "Cadastrar";
+            this.bunifuFlatButton1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bunifuFlatButton1.Textcolor = System.Drawing.Color.White;
+            this.bunifuFlatButton1.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuFlatButton1.Click += new System.EventHandler(this.bunifuFlatButton1_Click);
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label8.Location = new System.Drawing.Point(79, 224);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(113, 17);
+            this.label8.TabIndex = 42;
+            this.label8.Text = "Telefone/Celular";
+            // 
+            // txt_Tel
+            // 
+            this.txt_Tel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(88)))), ((int)(((byte)(88)))), ((int)(((byte)(88)))));
+            this.txt_Tel.BorderColorFocused = System.Drawing.SystemColors.ActiveBorder;
+            this.txt_Tel.BorderColorIdle = System.Drawing.SystemColors.ActiveBorder;
+            this.txt_Tel.BorderColorMouseHover = System.Drawing.SystemColors.ActiveBorder;
+            this.txt_Tel.BorderThickness = 1;
+            this.txt_Tel.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_Tel.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.txt_Tel.ForeColor = System.Drawing.Color.White;
+            this.txt_Tel.isPassword = false;
+            this.txt_Tel.Location = new System.Drawing.Point(68, 244);
+            this.txt_Tel.Margin = new System.Windows.Forms.Padding(4);
+            this.txt_Tel.Name = "txt_Tel";
+            this.txt_Tel.Size = new System.Drawing.Size(269, 27);
+            this.txt_Tel.TabIndex = 37;
+            this.txt_Tel.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label6.Location = new System.Drawing.Point(79, 172);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(37, 17);
+            this.label6.TabIndex = 41;
+            this.label6.Text = "Sexo";
+            // 
+            // cxc_UF
+            // 
+            this.cxc_UF.BackColor = System.Drawing.Color.Transparent;
+            this.cxc_UF.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.cxc_UF.BorderRadius = 15;
+            this.cxc_UF.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.cxc_UF.ForeColor = System.Drawing.Color.White;
+            this.cxc_UF.Items = new string[] {
+        "Outros",
+        "Masculino",
+        "Feminino",
+        "Nao quero identificar"};
+            this.cxc_UF.Location = new System.Drawing.Point(69, 192);
+            this.cxc_UF.Name = "cxc_UF";
+            this.cxc_UF.NomalColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(42)))), ((int)(((byte)(50)))));
+            this.cxc_UF.onHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(42)))), ((int)(((byte)(50)))));
+            this.cxc_UF.selectedIndex = -1;
+            this.cxc_UF.Size = new System.Drawing.Size(269, 27);
+            this.cxc_UF.TabIndex = 36;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label7.Location = new System.Drawing.Point(590, 265);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(184, 17);
+            this.label7.TabIndex = 40;
+            this.label7.Text = "Clique para adicionar Foto";
+            // 
+            // bunifuSeparator2
+            // 
+            this.bunifuSeparator2.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuSeparator2.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(105)))), ((int)(((byte)(105)))));
+            this.bunifuSeparator2.LineThickness = 1;
+            this.bunifuSeparator2.Location = new System.Drawing.Point(512, 23);
+            this.bunifuSeparator2.Name = "bunifuSeparator2";
+            this.bunifuSeparator2.Size = new System.Drawing.Size(15, 375);
+            this.bunifuSeparator2.TabIndex = 39;
+            this.bunifuSeparator2.Transparency = 255;
+            this.bunifuSeparator2.Vertical = true;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox4.Location = new System.Drawing.Point(596, 45);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(169, 196);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 38;
+            this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
+            // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
+            // 
+            // Cadastrar_Funcionario
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(46)))), ((int)(((byte)(59)))));
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.txt_Senha);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.txt_Nome);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.txt_Email);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.txt_CPF);
+            this.Controls.Add(this.btn_Limpar);
+            this.Controls.Add(this.bunifuFlatButton1);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.txt_Tel);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.cxc_UF);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.bunifuSeparator2);
+            this.Controls.Add(this.pictureBox4);
+            this.Name = "Cadastrar_Funcionario";
+            this.Size = new System.Drawing.Size(824, 448);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Label label4;
+        private Bunifu.Framework.UI.BunifuMetroTextbox txt_Senha;
+        private System.Windows.Forms.Label label10;
+        private Bunifu.Framework.UI.BunifuMetroTextbox txt_Nome;
+        private System.Windows.Forms.Label label9;
+        private Bunifu.Framework.UI.BunifuMetroTextbox txt_Email;
+        private System.Windows.Forms.Label label5;
+        private Bunifu.Framework.UI.BunifuMetroTextbox txt_CPF;
+        private Bunifu.Framework.UI.BunifuFlatButton btn_Limpar;
+        private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton1;
+        private System.Windows.Forms.Label label8;
+        private Bunifu.Framework.UI.BunifuMetroTextbox txt_Tel;
+        private System.Windows.Forms.Label label6;
+        private Bunifu.Framework.UI.BunifuDropdown cxc_UF;
+        private System.Windows.Forms.Label label7;
+        private Bunifu.Framework.UI.BunifuSeparator bunifuSeparator2;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
+    }
+}
